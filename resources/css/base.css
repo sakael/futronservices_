@@ -1,0 +1,170 @@
+a:hover,
+a:active,
+a:visited {
+    color: #fff;
+}
+
+p {
+    font-family: "Cabin", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-34 {
+    font-size: 34px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-38 {
+    font-size: 38px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-42 {
+    font-size: 42px;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.fs-46 {
+    font-size: 46px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.white {
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lh-70 {
+    line-height: 70px;
+}
+
+.lh-68 {
+    line-height: 68px;
+}
+
+.lh-66 {
+    line-height: 66px;
+}
+
+.lh-64 {
+    line-height: 64px;
+}
+
+.lh-62 {
+    line-height: 62px;
+}
+
+.lh-60 {
+    line-height: 60px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.lh-38 {
+    line-height: 38px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+.lh-34 {
+    line-height: 34px;
+}
+
+.lh-32 {
+    line-height: 32px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: silver;
+}

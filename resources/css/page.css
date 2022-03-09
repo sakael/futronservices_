@@ -1,0 +1,288 @@
+.page-body header {
+    height: 800px;
+}
+
+.page-hero {
+    height: 800px;
+    background-color: #ebeff2;
+    position: absolute;
+    top: 0;
+    min-height: 800px;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.page-hero .background {
+    height: 800px;
+    background-image: url("images/shutterstock_17_72.jpg");
+    background-repeat: no-repeat;
+}
+
+.page-hero .background-research-sties {
+    height: 800px;
+    background-image: url("images/pages/ResearchSties.jpg");
+}
+
+.page-hero .background-rtm {
+    height: 800px;
+    background-image: url("images/pages/RTM.jpg");
+}
+
+.page-hero .background-safety-risk-assessments {
+    height: 800px;
+    background-image: url("images/pages/Safety-Risk-Assessments.jpg");
+}
+
+.page-hero .background-safety-culture {
+    height: 800px;
+    background-image: url("images/pages/SafetyCulture.jpg");
+}
+
+.page-hero .background-uas {
+    height: 800px;
+    background-image: url("images/pages/UAS.jpg");
+}
+
+.page-hero .col-7 {
+    height: 800px;
+}
+
+
+/* inner-hero*/
+
+.page-inner-hero .text-wrap {
+    z-index: 2;
+}
+
+.page-inner-hero .text-wrap p {
+    color: #494949;
+}
+
+.page-inner-hero .image-sphere {
+    left: -200px;
+    top: 13px;
+    height: 550px;
+    z-index: 1;
+}
+
+.section-page {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+/* leadships */
+
+.person-shortcode-image-wrapper {
+    text-align: center;
+}
+
+.person-imgage-container {
+    display: inline-block;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.person-imgage-container.glow {
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.person-imgage-container.dropshadow {
+    -webkit-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.person-author {
+    display: table;
+    width: 100%;
+}
+
+.person-author .person-author-wrapper,
+.person-author .fusion-social-networks {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.person-author .person-author-wrapper {
+    min-width: 50%;
+    text-align: left;
+}
+
+.fusionicon-facebook:before {}
+
+.twitter:before {
+    content: "\e605";
+}
+
+.linkedin:before {
+    content: "\e60f";
+}
+
+.mail:before {
+    content: "\e616";
+}
+
+.person-author .fusion-social-networks {
+    max-width: 50%;
+    text-align: right;
+}
+
+.person-author .fusion-social-networks a:first-child {
+    margin-left: 0;
+}
+
+.person-author .fusion-social-networks a {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.person-author .boxed-icons a {
+    margin-left: 10px;
+}
+
+.person-author .person-name,
+.person-author .person-title {
+    display: block;
+    font-size: 14px;
+}
+
+.person-content {
+    margin-top: 25px;
+    color: #747474;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.fusion-social-network-icon {
+    /* margin-right: 10px; */
+    padding: 8px;
+    /* background-color: #46494a; */
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    -moz-background-clip: inherit;
+    -webkit-background-clip: inherit;
+    background-clip: inherit;
+    border: 1px solid #46494a;
+    /* color: #ffffff; */
+}
+
+element.style {
+    color: #FFFFFF;
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+}
+
+.fusion-person .person-desc .person-author .boxed-icons a {
+    margin-left: 10px;
+}
+
+.fusion-person .person-desc .person-author .fusion-social-networks a {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.fusion-social-networks.boxed-icons .fusion-social-network-icon {
+    /* margin-right: 10px; */
+    padding: 0px !important;
+    /* background-color: #46494a; */
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    -moz-background-clip: inherit;
+    -webkit-background-clip: inherit;
+    background-clip: inherit;
+    border: 1px solid #46494a;
+    width: 40px;
+    height: 40px;
+    /* color: #ffffff; */
+    position: relative;
+}
+
+.icon-facebook2:before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    top: 3px;
+}
+
+.icon-twitter2:before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    top: 3px;
+}
+
+.icon-linkedin2:before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    top: 3px;
+}
+
+.icon-mail:before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    top: 3px;
+}
+
+.fusion-social-network-icon {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #46494a;
+    display: inline-block;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #9B1C50;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: #9B1C50;
+}
+
+.accordion-button {
+    color: #000;
+}
